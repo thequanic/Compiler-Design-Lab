@@ -2,8 +2,8 @@
     #include <stdio.h>
 %}
 %%
-^[-\+]?[0-9]+ {printf("Integer");}
-^[-\+]?[0-9]+\.[0-9]+ {printf("Floating Point");}
+^[-+]?[0-9]+ {printf("Integer");}
+^[-+]?[0-9]*\.[0-9]+ {printf("Floating Point");}
 %%
 int main()
 {

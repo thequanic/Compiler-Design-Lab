@@ -27,7 +27,6 @@
 %%
 int main()
 {
-    printf("Devansh Goel 6G 23\n");
     yylex();
 } 
 int yywrap()
